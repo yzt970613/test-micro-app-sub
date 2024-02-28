@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .foo {
+    background: yellow;
+  }
+}
+
+@layer components {
+  .my-btn {
+    @apply text-red mt-[10px];
+  }
+}
+
+@layer utilities {
+  .tr {
+    @apply text-right text-red-900;
+  }
+}
